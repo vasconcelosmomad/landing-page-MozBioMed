@@ -1,176 +1,105 @@
-# MozBioMed.AI - Website
+# 🏥 MozBioMed.AI - Landing Page
 
-## 📋 Project Information
+> **Innovation in Health with Artificial Intelligence**
 
-**Project Name:** MozBioMed.AI  
-**Version:** 1.0.0  
-**Last Updated:** Jul 2025  
-**Status:** Production Ready  
+MozBioMed.AI develops technological solutions to revolutionize health in Mozambique and Africa through cutting-edge AI applications.
 
-## 👨‍💻 Author Information
+## 🚀 Quick Start
 
-**Developer:** Momade Vasconcelos 
-**Company Name** SOFT ETECH - - Inovação em Software e Tecnologias Emergentes
-**Contact:**+2588878131994  
+```bash
+# Clone o repositório
+git clone https://github.com/vasconcelosmomad/landing-page-MozBioMed.git
 
+# Navegue para o diretório
+cd landing-page-MozBioMed
 
-## 🎯 Project Description
-
-MozBioMed.AI is a modern, responsive website showcasing the company's expertise in medical AI, biotechnology, and healthcare innovation. The website features advanced animations, VR effects, and a comprehensive presentation of the company's services, team, and social impact initiatives. https://github.com/vasconcelosmomad/landing-page-MozBioMed.git
-
-## 🚀 Features
-
-### Core Features
-- **Responsive Design:** Fully responsive layout that works on all devices
-- **Modern UI/UX:** Clean, professional design with smooth animations
-- **VR Animations:** Interactive 3D effects and virtual reality elements
-- **Dark Mode Support:** Optimized for both light and dark themes
-- **Accessibility:** WCAG compliant with proper semantic HTML
-
-### Sections
-1. **Hero Section:** Animated DNA helix and company introduction
-2. **About Us:** Company story and mission
-3. **Our Team:** Leadership and team member profiles
-4. **Social Impact:** Areas of focus and project showcase
-5. **Publications & Resources:** Scientific articles and tools
-6. **Partnerships:** University and organization collaborations
-7. **Contact Us:** Contact form and information
-
-### Technical Features
-- **CSS Animations:** Smooth transitions and hover effects
-- **JavaScript Interactivity:** Dynamic content and user interactions
-- **Particle Effects:** Floating particles and VR grid overlays
-- **Scroll Animations:** Elements animate on scroll
-- **Mobile Optimization:** Touch-friendly interactions
-
-## 🛠️ Technology Stack
-
-### Frontend
-- **HTML5:** Semantic markup
-- **CSS3:** Modern styling with Tailwind CSS
-- **JavaScript:** Vanilla JS for interactivity
-- **Tailwind CSS:** Utility-first CSS framework
-- **Lucide Icons:** Modern icon library
-
-### Libraries & Dependencies
-- Tailwind CSS (via CDN)
-- Lucide Icons
-- Tw Elements (for enhanced components)
-
-## 📁 File Structure
-
-```
-mozbiomed/
-├── mozbiomed.html          # Main HTML file
-├── README.md              # Project documentation
-├── assets/
-│   ├── css/
-│   │   ├── style.css      # Custom styles
-│   │   └── tailwindcss.com
-│   ├── js/
-│   │   ├── index.js       # Main JavaScript file
-│   │   └── lucide.min.js  # Icon library
-│   ├── icons/             # Custom icons
-│   └── images/            # Project images
+# Abra o arquivo principal
+open mozbiomed.html
+# ou
+firefox mozbiomed.html
+# ou
+google-chrome mozbiomed.html
 ```
 
-## 🚀 Getting Started
+## 📁 Estrutura do Projeto
 
-### Prerequisites
-- Modern web browser (Chrome, Firefox, Safari, Edge)
-- Local web server (optional, for development)
+```
+landing-page-MozBioMed/
+├── 📄 mozbiomed.html          # Página principal
+├── 📁 assets/                 # Recursos estáticos
+│   ├── 📁 css/               # Estilos CSS
+│   ├── 📁 js/                # Scripts JavaScript
+│   ├── 📁 images/            # Imagens do projeto
+│   └── 📁 icons/             # Ícones
+├── 📁 docs/                  # 📚 Documentação
+│   ├── 📄 README.md          # Documentação principal
+│   ├── 📄 GIT_SETUP_GUIDE.md # Guia completo do Git
+│   ├── 📄 GIT_COMMANDS.md    # Comandos Git rápidos
+│   └── 📄 CHANGELOG.md       # Histórico de mudanças
+└── 📄 README.md              # Este arquivo
+```
 
-### Installation
-1. Clone or download the project files
-2. Open `mozbiomed.html` in your web browser
-3. For development, use a local server:
-   ```bash
-   # Using Python
-   python -m http.server 8000
-   
-   # Using Node.js
-   npx serve .
-   ```
+## 📚 Documentação
 
-## 🎨 Customization
+Toda a documentação está organizada na pasta [`docs/`](./docs/):
 
-### Colors
-The website uses a custom color palette defined in Tailwind CSS:
-- Primary: Blue tones (#3B82F6, #1E40AF)
-- Secondary: Purple tones (#8B5CF6)
-- Accent: Cyan tones (#06B6D4)
+- **[📖 Documentação Principal](./docs/README.md)** - Visão geral completa do projeto
+- **[🔧 Guia Git Completo](./docs/GIT_SETUP_GUIDE.md)** - Configuração e uso do Git
+- **[⚡ Comandos Git Rápidos](./docs/GIT_COMMANDS.md)** - Referência de comandos
+- **[📝 Changelog](./docs/CHANGELOG.md)** - Histórico de versões
 
-### Animations
-Custom animations are defined in `assets/css/style.css`:
-- VR hover effects
-- Particle animations
-- Neon text effects
-- 3D transforms
+## 🎯 Sobre o Projeto
 
-### Content Updates
-To update content, edit the corresponding sections in `mozbiomed.html`:
-- Team information in the "Our Team" section
-- Project details in "Social Impact"
-- Publications in "Publications & Resources"
-- Contact information in "Contact Us"
+MozBioMed.AI é uma startup britânica com raízes moçambicanas, baseada na Universidade de Manchester, dedicada à pesquisa biomédica e desenvolvimento de soluções inovadoras em diagnóstico e descoberta/redirecionamento de medicamentos para doenças tropicais negligenciadas.
 
-## 📱 Browser Support
+### 🏥 Áreas de Foco
 
-- Chrome 90+
-- Firefox 88+
-- Safari 14+
-- Edge 90+
+- **Drug Repurposing** - Redirecionamento de medicamentos aprovados
+- **AI-Based Diagnostics** - Diagnósticos baseados em IA
+- **Training and Capacity Building** - Treinamento e capacitação
+- **Social Innovation** - Inovação social
 
-## 🔧 Development
+### 🔬 Projetos Principais
 
-### Adding New Sections
-1. Add HTML structure in `mozbiomed.html`
-2. Include corresponding CSS in `assets/css/style.css`
-3. Add JavaScript functionality in `assets/js/index.js`
-4. Update navigation menu
+- **LeproScan.AI** - Detecção de lesões de lepra
+- **MalariaDetector.Moz** - Triagem rápida de malária
+- **TBInfra.AI** - Diagnóstico de tuberculose
+- **DengueMalaria.AI** - Diagnóstico de dengue e malária
 
-### Styling Guidelines
-- Use Tailwind CSS classes for consistent styling
-- Follow the existing color scheme
-- Maintain responsive design principles
-- Ensure accessibility compliance
+## 🛠️ Tecnologias Utilizadas
 
-## 📄 License
+- **HTML5** - Estrutura semântica
+- **CSS3** - Estilização moderna
+- **JavaScript** - Interatividade
+- **Tailwind CSS** - Framework CSS utilitário
+- **Lucide Icons** - Ícones modernos
+- **Git** - Controle de versão
 
-This project is proprietary software developed for MozBioMed.AI.
+## 👥 Equipe
 
-## 🤝 Contributing
+- **Alexandre Cobre (PhD)** - CEO e Pesquisador Principal
+- **Hélder Pedro Matilene** - Data Scientist
+- **Timothy Achala** - Data Scientist
 
-For internal development:
-1. Create a feature branch
-2. Make your changes
-3. Test thoroughly
-4. Submit a pull request
+## 🤝 Parcerias
 
-## 📞 Support
+- **Universidade de Manchester** - Reino Unido
+- **Ministério da Saúde de Moçambique**
+- **Universidade Licungo** - Moçambique
+- **Universidades internacionais** - Colaborações globais
 
-For technical support or questions:
-- **Developer:** Vasconcelos
-- **Email:** [Your Email]
-- **Project Repository:** [Repository URL]
+## 📞 Contato
 
-## 📈 Version History
+- **Email**: alexandrecobre@gmail.com
+- **Telefone**: +44 7936 386026
+- **Endereço**: 17 Longford Place, Manchester, England, M14 5QQ
 
-### v1.0.0 (January 2025)
-- Initial release
-- Complete website with all sections
-- VR animations and effects
-- Responsive design
-- Contact form functionality
-- Team and partnership sections
+## 📄 Licença
 
-### Future Updates
-- Enhanced animations
-- Additional content sections
-- Performance optimizations
-- SEO improvements
+Este projeto está sob licença proprietária. Todos os direitos reservados.
 
 ---
 
-**Developed with ❤️ by M. Vasconcelos(878131994) for MozBioMed.AI** 
-# landing-page-MozBioMed
+**Desenvolvido com ❤️ para transformar a saúde em Moçambique e África**
+
+*Última atualização: Julho 2025* 
