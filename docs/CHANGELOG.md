@@ -2,6 +2,19 @@
 
 All notable changes to the MozBioMed.AI website project will be documented in this file.
 
+## 🎓 Contexto Educacional
+
+Este projeto foi desenvolvido **para fins educacionais** a pedido do estudante **Fernando** da **Universidade Rovuma em Nampula**, do curso de **Engenharia Eletrônica**, que desejava aprender sobre desenvolvimento web moderno.
+
+### 👨‍🎓 Informações do Estudante
+- **Nome:** Fernando
+- **Instituição:** Universidade Rovuma
+- **Localização:** Nampula, Moçambique
+- **Curso:** Engenharia Eletrônica
+- **Contacto:** +258 871 411 366
+
+O conteúdo sobre MozBioMed.AI é fictício e criado apenas para demonstrar técnicas de desenvolvimento web.
+
 
 ## [1.0.0] - july-2025
 
@@ -82,9 +95,17 @@ All notable changes to the MozBioMed.AI website project will be documented in th
 ### Author Information
 - **Developer:** Vasconcelos
 - **Email:** alexandrecobre@gmail.com
-- **Project:** MozBioMed.AI Website
+- **Project:** MozBioMed.AI Website (Projeto Educacional)
 - **Version:** 1.0.0
-- **Status:** Production Ready
+- **Status:** Educational Project
+- **Purpose:** Learning material for web development
+
+### Student Information
+- **Student:** Fernando
+- **University:** Universidade Rovuma
+- **Location:** Nampula, Moçambique
+- **Course:** Engenharia Eletrônica
+- **Contact:** +258 871 411 366
 
 ---
 
@@ -109,4 +130,4 @@ All notable changes to the MozBioMed.AI website project will be documented in th
 
 ---
 
-**Developed with ❤️ by M.Vasconcelos for MozBioMed.AI** 
+**Developed with ❤️ by M.Vasconcelos for Educational Purposes** 

@@ -4,6 +4,24 @@
 
 Esta pasta contém toda a documentação técnica e de desenvolvimento do projeto MozBioMed.AI.
 
+## 🎓 Contexto Educacional
+
+Este projeto foi desenvolvido **para fins educacionais** a pedido do estudante **Fernando** da **Universidade Rovuma em Nampula**, do curso de **Engenharia Eletrônica**, que desejava aprender sobre:
+- Desenvolvimento web moderno
+- Boas práticas de programação
+- Controle de versão com Git
+- Documentação de projetos
+- Estruturação de código profissional
+
+### 👨‍🎓 Informações do Estudante
+- **Nome:** Fernando
+- **Instituição:** Universidade Rovuma
+- **Localização:** Nampula, Moçambique
+- **Curso:** Engenharia Eletrônica
+- **Contacto:** +258 871 411 366
+
+O conteúdo sobre MozBioMed.AI é fictício e criado apenas para demonstrar técnicas de desenvolvimento web.
+
 ## 📋 Índice da Documentação
 
 ### 🚀 [Guia de Início Rápido](./README.md#quick-start)
@@ -32,7 +50,11 @@ Esta pasta contém toda a documentação técnica e de desenvolvimento do projet
 
 ## 🎯 Sobre o Projeto
 
-MozBioMed.AI é uma startup britânica com raízes moçambicanas, baseada na Universidade de Manchester, dedicada à pesquisa biomédica e desenvolvimento de soluções inovadoras em diagnóstico e descoberta/redirecionamento de medicamentos para doenças tropicais negligenciadas.
+**⚠️ Nota:** Este é um projeto fictício criado para fins educacionais.
+
+MozBioMed.AI é uma startup fictícia britânica com raízes moçambicanas, baseada na Universidade de Manchester, dedicada à pesquisa biomédica e desenvolvimento de soluções inovadoras em diagnóstico e descoberta/redirecionamento de medicamentos para doenças tropicais negligenciadas.
+
+*O conteúdo foi criado para demonstrar como estruturar e apresentar informações em uma landing page profissional.*
 
 ### 🏥 Missão
 Transformar a saúde em Moçambique e África através de inovações tecnológicas e inteligência artificial.
@@ -104,6 +126,6 @@ Para contribuir com a documentação:
 
 ---
 
-**📚 Esta documentação é mantida pela equipe MozBioMed.AI**
+**📚 Esta documentação foi criada para fins educacionais**
 
 *Última atualização: Julho 2025*

@@ -4,6 +4,17 @@
 
 MozBioMed.AI develops technological solutions to revolutionize health in Mozambique and Africa through cutting-edge AI applications.
 
+## 📚 Contexto do Projeto
+
+Este projeto foi desenvolvido **para fins educacionais** a pedido do estudante **Fernando** da **Universidade Rovuma em Nampula**, do curso de **Engenharia Eletrônica**. O projeto serve como um exemplo prático de como criar uma landing page profissional com tecnologias atuais.
+
+### 👨‍🎓 Informações do Estudante
+- **Nome:** Fernando
+- **Instituição:** Universidade Rovuma
+- **Localização:** Nampula, Moçambique
+- **Curso:** Engenharia Eletrônica
+- **Contacto:** +258 871 411 366
+
 ## 🚀 Quick Start
 
 ```bash
@@ -96,10 +107,17 @@ MozBioMed.AI é uma startup britânica com raízes moçambicanas, baseada na Uni
 
 ## 📄 Licença
 
-Este projeto está sob licença proprietária. Todos os direitos reservados.
+Este projeto foi desenvolvido **para fins educacionais** e serve como material de aprendizado. O conteúdo sobre MozBioMed.AI é fictício e criado apenas para demonstrar técnicas de desenvolvimento web.
+
+## 🎓 Propósito Educacional
+
+- **Demonstração de tecnologias web modernas**
+- **Exemplo de boas práticas de desenvolvimento**
+- **Material de estudo para estudantes de programação**
+- **Referência para projetos similares**
 
 ---
 
-**Desenvolvido com ❤️ para transformar a saúde em Moçambique e África**
+**Desenvolvido com ❤️ para fins educacionais**
 
 *Última atualização: Julho 2025* 
