@@ -25,18 +25,18 @@ git clone https://github.com/vasconcelosmomad/landing-page-MozBioMed.git
 cd landing-page-MozBioMed
 
 # Abra o arquivo principal
-open mozbiomed.html
+open index.html
 # ou
-firefox mozbiomed.html
+firefox index.html
 # ou
-google-chrome mozbiomed.html
+google-chrome index.html
 ```
 
 ## 📁 Estrutura do Projeto
 
 ```
 landing-page-MozBioMed/
-├── 📄 mozbiomed.html          # Página principal
+├── 📄 index.html              # Página principal
 ├── 📁 assets/                 # Recursos estáticos
 │   ├── 📁 css/               # Estilos CSS
 │   ├── 📁 js/                # Scripts JavaScript
