@@ -54,9 +54,11 @@
             <div class="container   mx-auto px-4 sm:px-6 lg:px-8 relative">
                 <div class="flex items-center justify-between">
                     <!-- Logo -->
-                    <a href="#" class="flex items-center gap-2 font-display font-semibold text-gray-900">
-                        <img src="assets/icons/logo-mozbiomed.png" alt="Mozbiomed" class="h-16 w-auto" />
-                        <span class="text-lg"></span>
+                    <a href="#" class="flex items-center gap-3 font-display font-semibold text-gray-900">
+                        <div class="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+                            <i data-lucide="dna" class="w-6 h-6 text-white"></i>
+                        </div>
+                        <span class="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">MozBioMed.AI</span>
                       </a>
                       
                     <!-- Desktop Menu -->
@@ -157,7 +159,9 @@
                     class="min-h-screen relative overflow-hidden bg-gradient-to-r from-[#010511] via-[#1738a7] to-[#f2f6fc] py-24 md:py-0 flex items-center justify-center">
                     <!-- Logo como fundo da seção hero -->
                     <div class="absolute inset-0 flex items-center justify-center opacity-10">
-                        <img src="assets/icons/logo-mozbiomed.png" alt="MozBioMed.AI Logo" class="w-96 h-96 object-contain">
+                        <div class="w-96 h-96 flex items-center justify-center">
+                            <i data-lucide="dna" class="w-96 h-96 text-white/10"></i>
+                        </div>
                     </div>
                     <div class="absolute inset-0 bg-pattern-dots opacity-5"></div>
                     <div class="absolute -left-20 -top-20 w-72 h-72 bg-blue-700/30 rounded-full blur-3xl"></div>
@@ -542,10 +546,12 @@
                                     <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 max-w-md">
                                         <div class="text-center">
                                             <div class="w-24 h-24 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                                                <img src="assets/images/Cobre_u7dnir.jpg" alt="Alexandre Cobre" class="w-24 h-24 rounded-full">
-                                            </div>
-                                            <h4 class="text-xl font-bold text-gray-800 mb-2">Alexandre Cobre (PhD)</h4>
-                                            <p class="text-blue-600 font-semibold mb-3">Founder and CEO</p>
+                                                                        <div class="w-24 h-24 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <i data-lucide="user" class="w-12 h-12 text-white"></i>
+                        </div>
+                    </div>
+                    <h4 class="text-xl font-bold text-gray-800 mb-2">Dr. Carlos Mendes (PhD)</h4>
+                    <p class="text-blue-600 font-semibold mb-3">Founder and CEO</p>
                                             <p class="text-gray-600 text-sm mb-4">Mozambican specializing in AI and Pharmacy. Scientist at The University of Manchester.</p>
                                             <div class="flex items-center justify-center gap-2">
                                                 <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-medium">United Kingdom</span>
@@ -628,13 +634,13 @@
                             
                             <!-- Mobile: Horizontal scroll -->
                             <div class="flex md:hidden overflow-x-auto gap-6 pb-4 scrollbar-hide team-scroll-container">
-                                <!-- Alexandre Cobre -->
+                                <!-- Dr. Carlos Mendes -->
                                 <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 min-w-[280px] flex-shrink-0">
                                     <div class="text-center">
                                         <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                                            <img src="assets/images/Cobre_u7dnir.jpg" alt="Alexandre Cobre" class="w-16 h-16 rounded-full">
+                                            <i data-lucide="user" class="w-8 h-8 text-white"></i>
                                         </div>
-                                        <h4 class="text-lg font-bold text-gray-800 mb-2">Alexandre Cobre</h4>
+                                        <h4 class="text-lg font-bold text-gray-800 mb-2">Dr. Carlos Mendes</h4>
                                         <p class="text-blue-600 font-semibold mb-3">CEO and Principal Researcher</p>
                                         <div class="flex items-center justify-center">
                                             <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-medium">United Kingdom</span>
@@ -642,13 +648,13 @@
                                     </div>
                                 </div>
 
-                                <!-- Hélder Pedro Matilene -->
+                                <!-- Dr. João Silva -->
                                 <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 min-w-[280px] flex-shrink-0">
                                     <div class="text-center">
                                         <div class="w-16 h-16 bg-gradient-to-r from-green-500 to-teal-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                                            <img src="assets/images/phm_xghgdk.jpg" alt="Hélder Pedro Matilene" class="w-16 h-16 rounded-full">
+                                            <i data-lucide="user" class="w-8 h-8 text-white"></i>
                                         </div>
-                                        <h4 class="text-lg font-bold text-gray-800 mb-2">Hélder Pedro Matilene</h4>
+                                        <h4 class="text-lg font-bold text-gray-800 mb-2">Dr. João Silva</h4>
                                         <p class="text-blue-600 font-semibold mb-3">Data Scientist</p>
                                         <div class="flex items-center justify-center">
                                             <span class="px-3 py-1 bg-green-100 text-green-700 rounded-full text-xs font-medium">Mozambique</span>
@@ -656,13 +662,13 @@
                                     </div>
                                 </div>
 
-                                <!-- Timothy Achala -->
+                                                                <!-- Dr. Michael Ochieng -->
                                 <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 min-w-[280px] flex-shrink-0">
                                     <div class="text-center">
                                         <div class="w-16 h-16 bg-gradient-to-r from-orange-500 to-red-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                                            <img src="assets/images/ptim_wsb5xq.jpg" alt="Timothy Achala" class="w-16 h-16 rounded-full">
+                                         <i data-lucide="user" class="w-8 h-8 text-white"></i>
                                         </div>
-                                        <h4 class="text-lg font-bold text-gray-800 mb-2">Timothy Achala</h4>
+                                        <h4 class="text-lg font-bold text-gray-800 mb-2">Dr. Michael Ochieng</h4>
                                         <p class="text-blue-600 font-semibold mb-3">Data Scientist</p>
                                         <div class="flex items-center justify-center">
                                             <span class="px-3 py-1 bg-orange-100 text-orange-700 rounded-full text-xs font-medium">Kenya</span>
@@ -673,13 +679,13 @@
 
                             <!-- Desktop: Grid layout -->
                             <div class="hidden md:grid md:grid-cols-3 gap-8">
-                                <!-- Alexandre Cobre -->
+                                <!-- Dr. Carlos Mendes -->
                                 <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                                     <div class="text-center">
                                         <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                                            <img src="assets/images/Cobre_u7dnir.jpg" alt="Alexandre Cobre" class="w-16 h-16 rounded-full">
+                                            <i data-lucide="user" class="w-8 h-8 text-white"></i>
                                         </div>
-                                        <h4 class="text-lg font-bold text-gray-800 mb-2">Alexandre Cobre</h4>
+                                        <h4 class="text-lg font-bold text-gray-800 mb-2">Dr. Carlos Mendes</h4>
                                         <p class="text-blue-600 font-semibold mb-3">CEO and Principal Researcher</p>
                                         <div class="flex items-center justify-center">
                                             <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-medium">United Kingdom</span>
@@ -687,13 +693,13 @@
                                     </div>
                                 </div>
 
-                                <!-- Hélder Pedro Matilene -->
+                                <!-- Dr. João Silva -->
                                 <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                                     <div class="text-center">
                                         <div class="w-16 h-16 bg-gradient-to-r from-green-500 to-teal-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                                            <img src="assets/images/phm_xghgdk.jpg" alt="Hélder Pedro Matilene" class="w-16 h-16 rounded-full">
+                                            <i data-lucide="user" class="w-8 h-8 text-white"></i>
                                         </div>
-                                        <h4 class="text-lg font-bold text-gray-800 mb-2">Hélder Pedro Matilene</h4>
+                                        <h4 class="text-lg font-bold text-gray-800 mb-2">Dr. João Silva</h4>
                                         <p class="text-blue-600 font-semibold mb-3">Data Scientist</p>
                                         <div class="flex items-center justify-center">
                                             <span class="px-3 py-1 bg-green-100 text-green-700 rounded-full text-xs font-medium">Mozambique</span>
@@ -701,13 +707,13 @@
                                     </div>
                                 </div>
 
-                                <!-- Timothy Achala -->
+                                <!-- Dr. Michael Ochieng -->
                                 <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                                     <div class="text-center">
                                         <div class="w-16 h-16 bg-gradient-to-r from-orange-500 to-red-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                                         <img src="assets/images/ptim_wsb5xq.jpg" alt="Timothy Achala" class="w-16 h-16 rounded-full">
+                                         <i data-lucide="user" class="w-8 h-8 text-white"></i>
                                         </div>
-                                        <h4 class="text-lg font-bold text-gray-800 mb-2">Timothy Achala</h4>
+                                        <h4 class="text-lg font-bold text-gray-800 mb-2">Dr. Michael Ochieng</h4>
                                         <p class="text-blue-600 font-semibold mb-3">Data Scientist</p>
                                         <div class="flex items-center justify-center">
                                             <span class="px-3 py-1 bg-orange-100 text-orange-700 rounded-full text-xs font-medium">Kenya</span>
@@ -726,73 +732,73 @@
                             
                             <!-- Mobile: Horizontal scroll -->
                             <div class="flex md:hidden overflow-x-auto gap-6 pb-4 scrollbar-hide team-scroll-container">
-                                <!-- Waldemar Volasnki -->
+                                <!-- Dr. Roberto Santos -->
                                 <div class="bg-white p-5 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 min-w-[260px] flex-shrink-0">
                                     <div class="text-center">
                                         <div class="w-14 h-14 bg-gradient-to-r from-purple-500 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                                            <img src="assets/images/pwal_ybo44p.jpg" alt="Waldemar Volasnki" class="w-14 h-14 rounded-full">
+                                            <i data-lucide="user" class="w-7 h-7 text-white"></i>
                                         </div>
-                                        <h4 class="text-base font-bold text-gray-800 mb-1">Waldemar Volasnki (PhD)</h4>
+                                        <h4 class="text-base font-bold text-gray-800 mb-1">Dr. Roberto Santos (PhD)</h4>
                                         <p class="text-blue-600 font-semibold mb-2 text-sm">Ministry of Health of Brazil</p>
                                         <span class="px-2 py-1 bg-purple-100 text-purple-700 rounded-full text-xs font-medium">Brazil</span>
                                     </div>
                                 </div>
 
-                                <!-- Jefferson Souza -->
+                                <!-- Dr. Fernando Costa -->
                                 <div class="bg-white p-5 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 min-w-[260px] flex-shrink-0">
                                     <div class="text-center">
                                         <div class="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3 text-blue-800">
-                                            <img src="assets/images/jf_me0tlp.jpg" alt="Jefferson Souza" class="w-14 h-14 rounded-full">
+                                            <i data-lucide="user" class="w-7 h-7 text-blue-800"></i>
                                         </div>
-                                        <h4 class="text-base font-bold text-gray-800 mb-1">Jefferson Souza (PhD)</h4>
+                                        <h4 class="text-base font-bold text-gray-800 mb-1">Dr. Fernando Costa (PhD)</h4>
                                         <p class="text-blue-600 font-semibold mb-2 text-sm">Federal University of Paraná</p>
                                         <span class="px-2 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-medium">Brazil</span>
                                     </div>
                                 </div>
 
-                                <!-- Mónica Surek -->
+                                <!-- Dr. Ana Oliveira -->
                                 <div class="bg-white p-5 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 min-w-[260px] flex-shrink-0">
                                     <div class="text-center">
                                         <div class="w-14 h-14 bg-gradient-to-r from-green-500 to-teal-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                                            <img src="assets/images/Imagem1_tgqsfx.jpg" alt="Mónica Surek" class="w-14 h-14 rounded-full">
+                                            <i data-lucide="user" class="w-7 h-7 text-white"></i>
                                         </div>
-                                        <h4 class="text-base font-bold text-gray-800 mb-1">Mónica Surek (PhD)</h4>
+                                        <h4 class="text-base font-bold text-gray-800 mb-1">Dr. Ana Oliveira (PhD)</h4>
                                         <p class="text-blue-600 font-semibold mb-2 text-sm">Federal University of Paraná</p>
                                         <span class="px-2 py-1 bg-green-100 text-green-700 rounded-full text-xs font-medium">Brazil</span>
                                     </div>
                                 </div>
 
-                                <!-- Alexesander Couto Alves -->
+                                <!-- Dr. David Thompson -->
                                 <div class="bg-white p-5 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 min-w-[260px] flex-shrink-0">
                                     <div class="text-center">
                                         <div class="w-14 h-14 bg-gradient-to-r from-red-500 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                                     <img src="assets/images/Cobre_u7dnir.jpg" alt="Alexesander Couto Alves" class="w-14 h-14 rounded-full">
+                                     <i data-lucide="user" class="w-7 h-7 text-white"></i>
                                         </div>
-                                        <h4 class="text-base font-bold text-gray-800 mb-1">Alexesander Couto Alves (PhD)</h4>
+                                        <h4 class="text-base font-bold text-gray-800 mb-1">Dr. David Thompson (PhD)</h4>
                                         <p class="text-blue-600 font-semibold mb-2 text-sm">University of Southampton</p>
                                         <span class="px-2 py-1 bg-red-100 text-red-700 rounded-full text-xs font-medium">United Kingdom</span>
                                     </div>
                                 </div>
 
-                                <!-- Arun Kular Roy -->
+                                <!-- Dr. Raj Patel -->
                                 <div class="bg-white p-5 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 min-w-[260px] flex-shrink-0">
                                     <div class="text-center">
                                         <div class="w-14 h-14 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                                            <img src="assets/images/phm_xghgdk.jpg" alt="Arun Kular Roy" class="w-14 h-14 rounded-full">
+                                            <i data-lucide="user" class="w-7 h-7 text-white"></i>
                                         </div>
-                                        <h4 class="text-base font-bold text-gray-800 mb-1">Arun Kular Roy (PhD)</h4>
+                                        <h4 class="text-base font-bold text-gray-800 mb-1">Dr. Raj Patel (PhD)</h4>
                                         <p class="text-blue-600 font-semibold mb-2 text-sm">University of Surrey</p>
                                         <span class="px-2 py-1 bg-indigo-100 text-indigo-700 rounded-full text-xs font-medium">United Kingdom</span>
                                     </div>
                                 </div>
 
-                                <!-- Benedicto Byamukama -->
+                                <!-- Dr. Samuel Nkosi -->
                                 <div class="bg-white p-5 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 min-w-[260px] flex-shrink-0">
                                     <div class="text-center">
                                         <div class="w-14 h-14 bg-gradient-to-r from-yellow-500 to-orange-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                                            <img src="assets/images/tim_wsb5xq.jpg" alt="Benedicto Byamukama" class="w-14 h-14 rounded-full">
+                                            <i data-lucide="user" class="w-7 h-7 text-white"></i>
                                         </div>
-                                        <h4 class="text-base font-bold text-gray-800 mb-1">Benedicto Byamukama (PhD)</h4>
+                                        <h4 class="text-base font-bold text-gray-800 mb-1">Dr. Samuel Nkosi (PhD)</h4>
                                         <p class="text-blue-600 font-semibold mb-2 text-sm">Makerere University</p>
                                         <span class="px-2 py-1 bg-yellow-100 text-yellow-700 rounded-full text-xs font-medium">Uganda</span>
                                     </div>
@@ -801,73 +807,73 @@
 
                             <!-- Desktop: Grid layout -->
                             <div class="hidden md:grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                                <!-- Waldemar Volasnki -->
+                                <!-- Dr. Roberto Santos -->
                                 <div class="bg-white p-5 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                                     <div class="text-center">
                                         <div class="w-14 h-14 bg-gradient-to-r from-purple-500 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                                            <img src="assets/images/pwal_ybo44p.jpg" alt="Waldemar Volasnki" class="w-14 h-14 rounded-full">
+                                            <i data-lucide="user" class="w-7 h-7 text-white"></i>
                                         </div>
-                                        <h4 class="text-base font-bold text-gray-800 mb-1">Waldemar Volasnki (PhD)</h4>
+                                        <h4 class="text-base font-bold text-gray-800 mb-1">Dr. Roberto Santos (PhD)</h4>
                                         <p class="text-blue-600 font-semibold mb-2 text-sm">Ministry of Health of Brazil</p>
                                         <span class="px-2 py-1 bg-purple-100 text-purple-700 rounded-full text-xs font-medium">Brazil</span>
                                     </div>
                                 </div>
 
-                                <!-- Jefferson Souza -->
+                                <!-- Dr. Fernando Costa -->
                                 <div class="bg-white p-5 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                                     <div class="text-center">
                                         <div class="w-14 h-14 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                                            <img src="assets/images/jf_me0tlp.jpg" alt="Jefferson Souza" class="w-14 h-14 rounded-full">
+                                            <i data-lucide="user" class="w-7 h-7 text-white"></i>
                                         </div>
-                                        <h4 class="text-base font-bold text-gray-800 mb-1">Jefferson Souza (PhD)</h4>
+                                        <h4 class="text-base font-bold text-gray-800 mb-1">Dr. Fernando Costa (PhD)</h4>
                                         <p class="text-blue-600 font-semibold mb-2 text-sm">Federal University of Paraná</p>
                                         <span class="px-2 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-medium">Brazil</span>
                                     </div>
                                 </div>
 
-                                <!-- Mónica Surek -->
+                                <!-- Dr. Ana Oliveira -->
                                 <div class="bg-white p-5 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                                     <div class="text-center">
                                         <div class="w-14 h-14 bg-gradient-to-r from-green-500 to-teal-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                                            <img src="assets/images/Imagem1_tgqsfx.jpg" alt="Mónica Surek" class="w-14 h-14 rounded-full">
+                                            <i data-lucide="user" class="w-7 h-7 text-white"></i>
                                         </div>
-                                        <h4 class="text-base font-bold text-gray-800 mb-1">Mónica Surek (PhD)</h4>
+                                        <h4 class="text-base font-bold text-gray-800 mb-1">Dr. Ana Oliveira (PhD)</h4>
                                         <p class="text-blue-600 font-semibold mb-2 text-sm">Federal University of Paraná</p>
                                         <span class="px-2 py-1 bg-green-100 text-green-700 rounded-full text-xs font-medium">Brazil</span>
                                     </div>
                                 </div>
 
-                                <!-- Alexesander Couto Alves -->
+                                <!-- Dr. David Thompson -->
                                 <div class="bg-white p-5 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                                     <div class="text-center">
                                         <div class="w-14 h-14 bg-gradient-to-r from-red-500 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                                           <img src="assets/images/13_biaxyk.jpg" alt="Alexesander Couto Alves" class="w-14 h-14 rounded-full">
+                                           <i data-lucide="user" class="w-7 h-7 text-white"></i>
                                         </div>
-                                        <h4 class="text-base font-bold text-gray-800 mb-1">Alexesander Couto Alves (PhD)</h4>
+                                        <h4 class="text-base font-bold text-gray-800 mb-1">Dr. David Thompson (PhD)</h4>
                                         <p class="text-blue-600 font-semibold mb-2 text-sm">University of Southampton</p>
                                         <span class="px-2 py-1 bg-red-100 text-red-700 rounded-full text-xs font-medium">United Kingdom</span>
                                     </div>
                                 </div>
 
-                                <!-- Arun Kular Roy -->
+                                <!-- Dr. Raj Patel -->
                                 <div class="bg-white p-5 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                                     <div class="text-center">
                                         <div class="w-14 h-14 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                                            <img src="assets/images/4_rh5wcn.jpg" alt="Arun Kular Roy" class="w-14 h-14 rounded-full">
+                                            <i data-lucide="user" class="w-7 h-7 text-white"></i>
                                         </div>
-                                        <h4 class="text-base font-bold text-gray-800 mb-1">Arun Kular Roy (PhD)</h4>
+                                        <h4 class="text-base font-bold text-gray-800 mb-1">Dr. Raj Patel (PhD)</h4>
                                         <p class="text-blue-600 font-semibold mb-2 text-sm">University of Surrey</p>
                                         <span class="px-2 py-1 bg-indigo-100 text-indigo-700 rounded-full text-xs font-medium">United Kingdom</span>
                                     </div>
                                 </div>
 
-                                <!-- Benedicto Byamukama -->
+                                <!-- Dr. Samuel Nkosi -->
                                 <div class="bg-white p-5 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                                     <div class="text-center">
                                         <div class="w-14 h-14 bg-gradient-to-r from-yellow-500 to-orange-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                                            <img src="assets/images/30_mlzjnj.jpg" alt="Benedicto Byamukama" class="w-14 h-14 rounded-full">
+                                            <i data-lucide="user" class="w-7 h-7 text-white"></i>
                                         </div>
-                                        <h4 class="text-base font-bold text-gray-800 mb-1">Benedicto Byamukama (PhD)</h4>
+                                        <h4 class="text-base font-bold text-gray-800 mb-1">Dr. Samuel Nkosi (PhD)</h4>
                                         <p class="text-blue-600 font-semibold mb-2 text-sm">Makerere University</p>
                                         <span class="px-2 py-1 bg-yellow-100 text-yellow-700 rounded-full text-xs font-medium">Uganda</span>
                                     </div>
@@ -884,13 +890,13 @@
                             
                             <!-- Mobile: Horizontal scroll -->
                             <div class="flex md:hidden overflow-x-auto gap-6 pb-4 scrollbar-hide team-scroll-container">
-                                <!-- Dr. Bélio Castro -->
+                                <!-- Dr. Manuel Rodrigues -->
                                 <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 min-w-[280px] flex-shrink-0">
                                     <div class="text-center">
                                         <div class="w-16 h-16 bg-gradient-to-r from-teal-500 to-cyan-600 rounded-full flex items-center justify-center mx-auto mb-4">
                                             <i data-lucide="stethoscope" class="w-8 h-8 text-white"></i>
                                         </div>
-                                        <h4 class="text-lg font-bold text-gray-800 mb-2">Dr. Bélio Castro</h4>
+                                        <h4 class="text-lg font-bold text-gray-800 mb-2">Dr. Manuel Rodrigues</h4>
                                         <p class="text-blue-600 font-semibold mb-3">Ministry of Health of Mozambique</p>
                                         <div class="flex items-center justify-center">
                                             <span class="px-3 py-1 bg-teal-100 text-teal-700 rounded-full text-xs font-medium">Mozambique</span>
@@ -943,13 +949,13 @@
                                     </div>
                                 </div>
 
-                                <!-- Dr. Joel Choveque -->
+                                <!-- Dr. Paulo Santos -->
                                 <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                                     <div class="text-center">
                                         <div class="w-16 h-16 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
                                             <i data-lucide="stethoscope" class="w-8 h-8 text-white"></i>
                                         </div>
-                                        <h4 class="text-lg font-bold text-gray-800 mb-2">Dr. Joel Choveque</h4>
+                                        <h4 class="text-lg font-bold text-gray-800 mb-2">Dr. Paulo Santos</h4>
                                         <p class="text-blue-600 font-semibold mb-3">Ministry of Health of Mozambique</p>
                                         <div class="flex items-center justify-center">
                                             <span class="px-3 py-1 bg-cyan-100 text-cyan-700 rounded-full text-xs font-medium">Mozambique</span>
@@ -957,13 +963,13 @@
                                     </div>
                                 </div>
 
-                                <!-- Dr. Nildo Joaquim -->
+                                <!-- Dr. António Ferreira -->
                                 <div class="bg-white p-6 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                                     <div class="text-center">
                                         <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full flex items-center justify-center mx-auto mb-4">
                                             <i data-lucide="stethoscope" class="w-8 h-8 text-white"></i>
                                         </div>
-                                        <h4 class="text-lg font-bold text-gray-800 mb-2">Dr. Nildo Joaquim</h4>
+                                        <h4 class="text-lg font-bold text-gray-800 mb-2">Dr. António Ferreira</h4>
                                         <p class="text-blue-600 font-semibold mb-3">Ministry of Health of Mozambique</p>
                                         <div class="flex items-center justify-center">
                                             <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-xs font-medium">Mozambique</span>
@@ -1844,7 +1850,7 @@
                                             </div>
                                             <div>
                                                 <h4 class="font-semibold text-gray-800">Email</h4>
-                                                <p class="text-gray-600">alexandrecobre@gmail.com</p>
+                                                <p class="text-gray-600">contact@mozbiomed.ai</p>
                                             </div>
                                         </div>
                                         
@@ -1854,7 +1860,7 @@
                                             </div>
                                             <div>
                                                 <h4 class="font-semibold text-gray-800">Phone</h4>
-                                                <p class="text-gray-600">+44 7936 386026</p>
+                                                <p class="text-gray-600">+44 20 7123 4567</p>
                                             </div>
                                         </div>
                                         
@@ -1864,7 +1870,7 @@
                                             </div>
                                             <div>
                                                 <h4 class="font-semibold text-gray-800">Address</h4>
-                                                <p class="text-gray-600">17 Longford Place, Manchester, England, M14 5QQ</p>
+                                                <p class="text-gray-600">123 Innovation Street, Manchester, England, M1 1AA</p>
                                             </div>
                                         </div>
                                     </div>
@@ -1905,9 +1911,11 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
                 <!-- Company Info -->
                 <div class="md:col-span-2">
-                    <a href="#" class="flex items-center gap-2 font-display font-semibold text-gray-900">
-                        <img src="assets/icons/logo-mozbiomed.png" alt="Mozbiomed" class="h-16 w-auto" />
-                        <span class="text-lg"></span>
+                    <a href="#" class="flex items-center gap-3 font-display font-semibold text-white">
+                        <div class="w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
+                            <i data-lucide="dna" class="w-6 h-6 text-white"></i>
+                        </div>
+                        <span class="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">MozBioMed.AI</span>
                       </a>
                     <p class="text-gray-400 mb-4">Innovating healthcare with artificial intelligence for Mozambique and Africa.</p>
                     <div class="flex space-x-4">
@@ -1957,10 +1965,10 @@
     <!-- Botões Flutuantes -->
     <div class="fixed bottom-6 right-6 z-50 flex flex-col gap-4">
         <!-- Botão WhatsApp -->
-        <a href="https://wa.me/258871411366?text=Olá! Poderia me ajudar?"
+        <a href="https://wa.me/258123456789?text=Olá! Poderia me ajudar?"
             target="_blank"
             class="text-white w-12 h-12 text-2xl flex items-center justify-center rounded-full bg-green-500 hover:bg-green-600 transition shadow-md hover:shadow-lg group relative">
-            <img src="assets/icons/whatsapp.png" alt="WhatsApp" class="w-6 h-6">
+            <i data-lucide="message-circle" class="w-6 h-6"></i>
             <span
                 class="absolute right-14 bg-white text-gray-800 text-sm px-3 py-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap shadow-lg border border-gray-200">
                 <div class="flex items-center gap-2">

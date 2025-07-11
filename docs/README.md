@@ -6,19 +6,14 @@ Esta pasta contém toda a documentação técnica e de desenvolvimento do projet
 
 ## 🎓 Contexto Educacional
 
-Este projeto foi desenvolvido **para fins educacionais** a pedido do estudante **Fernando** da **Universidade Rovuma em Nampula**, do curso de **Engenharia Eletrônica**, que desejava aprender sobre:
+Este projeto foi desenvolvido **para fins educacionais** a partir de uma colaboração informal com um estudante, cujo nome foi omitido por motivos de privacidade. O estudante desejava aprender sobre:
 - Desenvolvimento web moderno
 - Boas práticas de programação
 - Controle de versão com Git
 - Documentação de projetos
 - Estruturação de código profissional
 
-### 👨‍🎓 Informações do Estudante
-- **Nome:** Fernando
-- **Instituição:** Universidade Rovuma
-- **Localização:** Nampula, Moçambique
-- **Curso:** Engenharia Eletrônica
-- **Contacto:** +258 871 411 366
+> ⚠️ Este projeto surgiu a partir de uma colaboração informal com um estudante, cujo nome foi omitido por motivos de privacidade. Toda a estrutura foi adaptada para fins de portfólio pessoal e demonstração técnica.
 
 O conteúdo sobre MozBioMed.AI é fictício e criado apenas para demonstrar técnicas de desenvolvimento web.
 
